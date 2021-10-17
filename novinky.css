@@ -1,18 +1,20 @@
-.vyhody {
+.novinky {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 2rem;
 }
 
-.vyhody__polozka {
+.novinky__polozka {
   display: flex;
   flex-direction: column;
   border: 1px solid lightgray;
   background-color: lightgray;
-  align-items: center;
-  text-align: center;
   padding: 1rem;
+}
+
+.novinky__datum {
+  color: grey;
 }

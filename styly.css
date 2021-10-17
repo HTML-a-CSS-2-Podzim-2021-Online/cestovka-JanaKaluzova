@@ -1,6 +1,9 @@
 @import "header.css";
 @import "zajezdy.css";
 @import "vyhody.css";
+@import "novinky.css";
+@import "footer.css";
+
 html {
   box-sizing: border-box;
 }
@@ -12,6 +15,7 @@ html {
 
 :root {
   --hlavni: #f03000;
+  --nadpisy: #ffffff;
 }
 
 body {
@@ -25,64 +29,10 @@ h3 {
 
 h2,
 h4 {
-  color: white;
-}
-
-.vyhody {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 15px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
-}
-
-.vyhody__podpora,
-.vyhody__sluzby,
-.vyhody__slevy,
-.vyhody__bezpeci {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid lightgray;
-  background-color: lightgray;
-  align-items: center;
-  text-align: center;
-  padding: 1rem;
+  color: var(--nadpisy);
 }
 
 h5 {
   color: var(--hlavni);
   margin-bottom: 0;
-}
-
-.novinky {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
-}
-
-.novinky__zanzibar,
-.novinky__navrat,
-.novinky__kuba {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid lightgray;
-  background-color: lightgray;
-
-  padding: 1rem;
-}
-
-.datum {
-  color: grey;
-}
-
-footer {
-  color: white;
-  background-color: black;
-  margin: 2rem;
-  padding: 1rem;
-  text-align: center;
 }

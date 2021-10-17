@@ -9,7 +9,7 @@
 }
 
 .polozka__dotaz {
-  color: white;
+  color: var(--nadpisy);
   padding: 0.8rem;
   border: solid 1px var(--hlavni);
   background-color: var(--hlavni);
