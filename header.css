@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.polozka__dotaz {
+.polozky__dotaz {
   color: var(--nadpisy);
   padding: 0.8rem;
   border: solid 1px var(--hlavni);
@@ -24,7 +24,7 @@ header {
   padding-bottom: 1rem;
 }
 
-.polozka__last,
-.polozka__destinace {
+.polozky__last,
+.polozky__destinace {
   padding: 1rem;
 }
