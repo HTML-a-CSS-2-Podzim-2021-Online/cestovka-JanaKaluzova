@@ -1,0 +1,30 @@
+.logo {
+  padding: 1rem;
+}
+
+.polozky {
+  color: var(--hlavni);
+  display: flex;
+  align-items: center;
+}
+
+.polozka__dotaz {
+  color: white;
+  padding: 0.8rem;
+  border: solid 1px var(--hlavni);
+  background-color: var(--hlavni);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.polozka__last,
+.polozka__destinace {
+  padding: 1rem;
+}

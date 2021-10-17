@@ -1,69 +1,168 @@
 <!DOCTYPE html>
 <html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styly.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cestovka</title>
-</head>
+    <title>Cestovka</title>
+  </head>
 
-<body>
-	Last minute
-	Destinace
-	Časté otázky
+  <body>
+    <header>
+      <div class="logo">
+        <img src="podklady/logo.svg" alt="logo cestovni kancelare" />
+      </div>
 
-	17 600 Kč
-	Pohoda pod palmami
-	Nejlepší dovolená pro nejvíc nejlínější lidi na světě
+      <div class="polozky">
+        <div class="polozka__last">Last minute</div>
+        <div class="polozka__destinace">Destinace</div>
+        <div class="polozka__dotaz">Časté otázky</div>
+      </div>
+    </header>
 
-	8 490 Kč
-	Klid u jezera
+    <section class="zajezdy">
+      <div class="zajezdy__velky--vlevo">
+        <div class="zajezdy__cena">17 600 Kč</div>
+        <div>
+          <h2>Pohoda pod palmami</h2>
+          <p class="zajezdy__popis">
+            Nejlepší dovolená pro nejvíc nejlínější lidi na světě
+          </p>
+        </div>
+      </div>
 
-	4 990 Kč
-	Výlet na kole
+      <div class="zajezdy__maly--vpravoNahore">
+        <div class="zajezdy__cena">8 490 Kč</div>
 
-	Podpora na místě
-	V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.
+        <h4>Klid u jezera</h4>
+      </div>
 
-	Služby na letišti
-	Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti nebudete čekat.
+      <div class="zajezdy__maly--vpravoDole">
+        <div class="zajezdy__cena">4 990 Kč</div>
+        <h4>Výlet na kole</h4>
+      </div>
+    </section>
 
-	Do celého světa
-	Nabízíme pravidelné slevy na vybraných destinací na všech kontinentech.
+    <div class="vyhody">
+      <div class="vyhody__podpora">
+        <img
+          src="podklady/map.svg"
+          alt="ikona mapoveho pointeru"
+          width="25"
+          height="25"
+        />
+        <h5>Podpora na místě</h5>
+        <p>
+          V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi
+          poradí.
+        </p>
+      </div>
+      <div class="vyhody__sluzby">
+        <img
+          src="podklady/plane.svg"
+          alt="ikona mapoveho pointeru"
+          width="25"
+          height="25"
+        />
+        <h5>Služby na letišti</h5>
+        <p>
+          Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti
+          nebudete čekat.
+        </p>
+      </div>
+      <div class="vyhody__slevy">
+        <img
+          src="podklady/globe.svg"
+          alt="ikona mapoveho pointeru"
+          width="25"
+          height="25"
+        />
+        <h5>Do celého světa</h5>
+        <p>
+          Nabízíme pravidelné slevy na vybraných destinací na všech
+          kontinentech.
+        </p>
+      </div>
+      <div class="vyhody__bezpeci">
+        <img
+          src="podklady/shield.svg"
+          alt="ikona mapoveho pointeru"
+          width="25"
+          height="25"
+        />
+        <h5>Vaše bezpečí</h5>
+        <p>
+          Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.
+        </p>
+      </div>
+    </div>
 
-	Vaše bezpečí
-	Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.
+    <h3>Last minute zájezdy</h3>
 
-	Last minute zájezdy
+    <section class="zajezdy">
+      <div class="zajezdy__maly--vlevoNahore">
+        <div class="zajezdy__cena">18 500 Kč</div>
+        <h4>Grand Canyon</h4>
+      </div>
 
-	18 500 Kč
-	Grand Canyon
+      <div class="zajezdy__maly--vlevoDole">
+        <div class="zajezdy__cena">8 900 Kč</div>
+        <h4>Pěšky po Kanárských ostrovech</h4>
+      </div>
 
-	8 900 Kč
-	Pěšky po Kanárských ostrovech
+      <div class="zajezdy__velky--vpravo">
+        <div class="zajezdy__cena">15 900 Kč</div>
+        <div>
+          <h2>Romantika u horského jezera</h2>
+          <p class="zajezdy__popis">
+            Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.
+          </p>
+        </div>
+      </div>
+    </section>
 
-	15 900 Kč
-	Romantika u horského jezera
-	Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.
+    <h3>Novinky</h3>
 
-	Novinky
+    <section class="novinky">
+      <div class="novinky__zanzibar">
+        <div class="datum">15. 8. 2020</div>
+        <h5>Magický Zanzibar</h5>
+        <p>
+          Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví
+          vůně exotických koření, příznivé klima, teplé moře, exotická flóra i
+          fauna.
+        </p>
+      </div>
 
-	15. 8. 2020
-	Magický Zanzibar
-	Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře,
-	exotická flóra i fauna.
+      <div class="novinky__navrat">
+        <div class="datum">31. 9. 2020</div>
 
-	31. 9. 2020
-	Návrat českých občanů ze zahraničí
-	Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření
-	Ministerstva zdravotnictví ČR.
+        <h5>Návrat českých občanů ze zahraničí</h5>
+        <p>
+          Všichni občané ČR vracející se ze zahraničí zpět se musí řídit
+          podmínkami uvedenými v platném Ochranném opatření Ministerstva
+          zdravotnictví ČR.
+        </p>
+      </div>
 
-	6. 10. 2020
-	Na Kubu s PCR testem
-	Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před
-	příletem do destinace.
+      <div class="novinky__kuba">
+        <div class="datum">6. 10. 2020</div>
 
-	©2021, Czechitas
-</body>
+        <h5>Na Kubu s PCR testem</h5>
+        <p>
+          Při vstupu do země se buď musíte prokázat negativním PCR testem na
+          Covid-19, který byl proveden max. 72 hodin před příletem do destinace.
+        </p>
+      </div>
+    </section>
 
+    <footer>©2021, Czechitas</footer>
+  </body>
 </html>
